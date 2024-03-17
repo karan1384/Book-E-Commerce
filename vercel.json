@@ -1,13 +1,10 @@
+
 {
-    "builds": [{
-        "src": "market_django/wsgi.py",
-        "use": "@ardnt/vercel-python-wsgi",
-        "config": { "maxLambdaSize": "15mb" }
-    }],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "market_django/wsgi.py"
-        }
+    "version": 2,
+    "builds": [
+      {
+        "src": "market_django/wsgi.py", 
+        "use": "vercel-sapper"
+      }
     ]
-}
+  }
