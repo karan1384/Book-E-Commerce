@@ -16,6 +16,8 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['.vercel.app']
 
+WSGI_APPLICATION = 'vercel_app.wsgi.app'
+
 SITE_ID = 1
 # Application definition
 
