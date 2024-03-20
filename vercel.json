@@ -1,3 +1,13 @@
 {
-    "rewrites": [{ "source": "/(.*)", "destination": "/api" }]
-  }
+    "builds": [{
+        "src": "market_django/wsgi.py",
+        "use": "@natanffs/vercel-python-wsgi",
+        "config": { "maxLambdaSize": "15mb" }
+    }],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "market_django/wsgi.py"
+        }
+    ]
+}
