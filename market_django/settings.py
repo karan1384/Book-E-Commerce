@@ -9,7 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-k(2irc^0!m_0&x9-8yqmh3#@*mv_ja^djq7%a90e=_nce)+q_$'
+SECRET_KEY = 'YOUR_KEY'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -146,5 +146,5 @@ LOGIN_REDIRECT_URL = '/'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 #Stripe settings
-STRIPE_PUBLISHABLE_KEY = 'pk_test_51OusRcSIdRv3YJ7d4qvo7SXWM26oXcUE4GMcWIwIQgz4thAEGbNA7Wx5oaSiwMmnIzRiM6o8ENSypApx44Or6Tdl00hAn00wFs'
-STRIPE_SECRET_KEY = 'sk_test_51OusRcSIdRv3YJ7drknPBqmAkdbRZcISiKGpgS1Yo70X4qMFJvNnsK8lE9V8sNLWC05MODux9lweMGvH9lOWZhPZ00FVHltARB'
+STRIPE_PUBLISHABLE_KEY = 'YOUR_KEY'
+STRIPE_SECRET_KEY = 'YOUR_KEY'
