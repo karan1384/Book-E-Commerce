@@ -1,4 +1,4 @@
-var stripe = Stripe("pk_test_51OusRcSIdRv3YJ7d4qvo7SXWM26oXcUE4GMcWIwIQgz4thAEGbNA7Wx5oaSiwMmnIzRiM6o8ENSypApx44Or6Tdl00hAn00wFs");
+var stripe = Stripe("settings.STRIPE_PUBLISH_KEY");
 
 var elements = stripe.elements();
 
