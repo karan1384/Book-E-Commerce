@@ -1,4 +1,4 @@
-var stripe = Stripe("settings.STRIPE_PUBLISH_KEY");
+var stripe = Stripe("settings.STRIPE_PUBLISHABLE_KEY");
 
 var elements = stripe.elements();
 
